@@ -15,8 +15,8 @@ spec:
         app: my-nginx
     spec:
       containers:
-      - name: alpine
-        image: alpine:latest  
+      - name: nginx
+        image: nginx:latest  
         ports:
         - containerPort: 80  
         resources:
