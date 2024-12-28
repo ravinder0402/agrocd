@@ -15,10 +15,10 @@ spec:
         app: my-nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:latest  # Use the latest Nginx image
+      - name: alpine
+        image: alpine:latest  
         ports:
-        - containerPort: 80  # Expose port 80
+        - containerPort: 80  
         resources:
           limits:
             memory: "128Mi"
